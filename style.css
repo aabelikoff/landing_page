@@ -1,7 +1,6 @@
 html{
     box-sizing: border-box;
     box-sizing: inherit;
-    
 }
 
 body {
@@ -11,71 +10,74 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;    
 }
-
+/*The hiest section*/
 .header {
     height: 400px;
     display: flex;
     flex-direction: column;
     padding: 20px 250px 20px 250px;
     font-size: 18px;
+    color:#E5E7EB;
 }
+/*Left top logo. It could be used text or an image within*/
 .h_logo {
-   /* border: solid 1px white;
-    /*width:1500px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*margin: 25px 78px 25px auto;*/
 }
+/*Text used instead of logo image*/
 .h_logo div {
     font-size: 24px;
     color: #F9FAF8;
 }
+/*Image as logo*/
 .h_logo img {
     width: 200px;
     height: 70px;
 }
+/*Top right section of links to another pages*/
 .h_links {
     width: 600px;
     display: flex;
     justify-content: end;
     gap: 30px;
     list-style-type: none;
-    /*margin-right: 78px;*/
     padding: 0px;
-    
 }
+/*Second level of header. Name, description, sign in button and a beautiful picture:) */
 .h_description{
     padding: 0px 0 0 0;
-    /*border: solid 1px white;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 250px;
     color: #E5E7EB;
 }
+/*left part consists of h1(site name) & p-description*/
 .h_description div {
     width: 400px;
     padding: 0;
 }
+/*Name of online store*/
 .h_description div h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: extra-bold;
     margin: 0;
 }
+/*Short description */
 .h_description div p{
     margin: 0 0 10px 0;
 }
+/*Picture in header in right-bottom corner*/
 .h_description .h_image{
     flex: 0 0 auto;
-    /*border: 1px solid red;*/
     width: 549px;
     height:200px;
     margin: 0;
     background-color: #E5E7EB;
 }
-
+/*Set picture size*/
 .h_image image{
     width: 549px;
     height: 200px;
@@ -84,13 +86,13 @@ body {
 .footer, .header{
     background-color: #1F2937;
 }
-
+/**/
 a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
-
+/*Sign up button*/
 button {
     background-color: #3882F6;
     width: 90px;
@@ -100,58 +102,58 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
-
+/*Content section with links to another pages*/
 .info {
-    /*height: 270px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+/*Content header*/
 .info h2{
     color: #1F2937;
     font-size: 36px;
     font-weight: extra-bold;
 }
-
+/*Section with pictures of goods and its description*/
 .subinfo {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
-
+/*Vertical subsections (picture-description*/
 .subinfo div{
     text-align: center;
     width: 200px;
     height: 300px;
 }
-
+/*Small pictires (4 pcs)*/
 .subinfo div img {
     width: 200px;
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 15px;
 }
-
+/*description*/
 .subinfo div p {
     width: 150px;
     height: 150px;
     margin: auto;
 }
+/*another section with famous quotation*/
 .quotation {
     text-align: justify;
     height: 400px;
     background-color: #E5E7EB;
-    /*border: 1px solid red;*/
 }
 .quote, .author{
     width: 850px;
     margin: 0px auto;
 }
+/*subsection - quotation itself*/
 .quote{
     height: 200px;
-    margin-top: 90px;   
-    /*border: 1px solid blue;*/
+    margin-top: 90px;
     display: flex;
     align-items: flex-end;
     font-size: 36px;
@@ -159,17 +161,15 @@ button {
     font-weight: light;
     font-style: italic;
 }
+/*subsection*/
 .author{
     margin-top: 3px;
     height: 50px;
-    /*border: 1px solid blue;*/
     text-align: right;
     font-weight: bolder;
     font-size: larger;
-    /*color: #1F2937;;*/
-
 }
-
+/*sign in section*/
 .action{
     background-color: #3882F6;
     color: #E5E7EB;
@@ -190,8 +190,9 @@ button {
 .action p{
     /*border: 1px solid white;*/
     margin: 0;
+    font-size: 18px;;
 }
-
+/*Second sign up button with white border*/
 .bordered {
     border: solid #E5E7EB;
 }
@@ -202,4 +203,5 @@ button {
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
+    font-size: 18px;
 }
